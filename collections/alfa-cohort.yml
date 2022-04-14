@@ -12,3 +12,12 @@ plugins:
     comment: Segment cellular nuclei across a wide range of imaging modalities 
   - name: stardist-napari
     comment: Segment nuclei from fluorescent and histopathology images
+curator:
+  name: Justin Kiggins
+  title: Product Manager
+  affiliation: Chan Zuckerberg Initiative
+  links:
+    linkedin: https://www.linkedin.com/in/justinkiggins/
+    github: neuromusic
+    google_scholar: https://scholar.google.com/citations?user=epRv4jEAAAAJ
+    extra: justinkiggins.com
