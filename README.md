@@ -1,5 +1,6 @@
-# open-source-starter
-starter template for CZI open source projects
+# napari hub collections MVP
+
+This repository contains the content that powers the MVP implementations of the napari hub's Collections.
 
 ## Code of Conduct
 
