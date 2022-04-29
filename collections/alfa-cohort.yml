@@ -1,6 +1,8 @@
 title: Alfa Cohort
-cover-image: national-cancer-institute-evhLgfOjU5Y-unsplash.jpg
+updated_date: "2022-04-29"
+summary: Plugins created by participants in the the napari Alfa Cohort
 description: Plugins created by participants in the the napari Alfa Cohort
+cover_image: national-cancer-institute-evhLgfOjU5Y-unsplash.jpg
 plugins:
   - name: napari-yapic-prediction
     comment: Classify every pixel from your own pre-trained deep learning models
@@ -9,15 +11,17 @@ plugins:
   - name: napari-cellpose
     comment: Segment cells and nuclei leveraging cytoplasm channels
   - name: napari-nucleaizer
-    comment: Segment cellular nuclei across a wide range of imaging modalities 
+    comment: Segment cellular nuclei across a wide range of imaging modalities
   - name: stardist-napari
     comment: Segment nuclei from fluorescent and histopathology images
 curator:
   name: Justin Kiggins
   title: Product Manager
-  affiliation: Chan Zuckerberg Initiative
+  affiliation:
+    institution: Chan Zuckerberg Initiative
+    website: https://chanzuckerberg.com
   links:
-    linkedin: https://www.linkedin.com/in/justinkiggins/
+    orcid: 0000-0002-4638-7015
+    twitter: neuromusic
     github: neuromusic
-    google_scholar: https://scholar.google.com/citations?user=epRv4jEAAAAJ
-    extra: justinkiggins.com
+    website: https://justinkiggins.com
