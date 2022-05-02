@@ -1,10 +1,29 @@
+# each Collection must have a title
 title: Alfa Cohort
+
+# the date the collection was last updated. must be in ISO-8601 format
 updated_date: "2022-04-29"
+
+# a one-sentence summary of the collection. 
+# give napari users insight into what the collection contains and how it will help them.
+# this will be shown on the Collection's card.
 summary: Plugins created by participants in the the napari Alfa Cohort
+
+
+# a longer description of the collection. 
+# give more background and context on the collection, what the plugins do, and why it matters.
+# this will be displayed at the top of the collection.
 description: Plugins created by participants in the the napari Alfa Cohort
+
+# provide a cover image for the collection. 
+# this must be at least 1400px and be present in the top-level `images` folder in this repo
 cover_image: national-cancer-institute-evhLgfOjU5Y-unsplash.jpg
+
+# the list of plugins in this collection
 plugins:
+    # the name of the plugin is the pypi name
   - name: napari-yapic-prediction
+    # provide a comment to let users know why this plugin matters
     comment: Classify every pixel from your own pre-trained deep learning models
   - name: cellfinder-napari
     comment: Quickly detect neurons in whole brain flourescent imaging data
@@ -14,6 +33,8 @@ plugins:
     comment: Segment cellular nuclei across a wide range of imaging modalities
   - name: stardist-napari
     comment: Segment nuclei from fluorescent and histopathology images
+   
+# who created this collection? add your name, credentials, and relevant links
 curator:
   name: Justin Kiggins
   title: Product Manager
@@ -22,6 +43,6 @@ curator:
     website: https://chanzuckerberg.com
   links:
     orcid: 0000-0002-4638-7015
-    twitter: neuromusic
-    github: neuromusic
+    twitter: https://twitter.com/neuromusic
+    github: https://github.com/neuromusic
     website: https://justinkiggins.com
