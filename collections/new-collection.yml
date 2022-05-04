@@ -1,0 +1,25 @@
+title: Alfa Cohort
+
+updated_date: "2022-04-29"
+
+summary: Plugins created by participants in the the napari Alfa Cohort
+
+description: Plugins created by participants in the the napari Alfa Cohort
+
+cover_image: national-cancer-institute-evhLgfOjU5Y-unsplash.jpg
+
+plugins:
+  - name: napari-yapic-prediction
+    comment: Classify every pixel from your own pre-trained deep learning models
+
+curator:
+  name: Kimberly
+  title: Product Manager
+  affiliation:
+    institution: Chan Zuckerberg Initiative
+    website: https://chanzuckerberg.com
+  links:
+    orcid: 0000-0002-4638-7015
+    twitter: neuromusic
+    github: neuromusic
+    website: https://justinkiggins.com
