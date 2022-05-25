@@ -11,7 +11,7 @@ Have an idea for a Collection you'd like to share with the napari community? Cur
 
 ## How to Submit a Collection
 
-Collections can be submitted directly to this repo via a pull request. Download the collection-template.yml file from the [collections folder](https://github.com/chanzuckerberg/napari-hub-collections/tree/dgm/submission/collections) and fill out the fields detailed below for your Collection before making a pull request to add your unique file to the [collections folder](https://github.com/chanzuckerberg/napari-hub-collections/tree/dgm/submission/collections). 
+Collections can be submitted directly to this repo via a pull request. Download the collection-template.yml file from the [the napari-hub-collections repository](https://github.com/chanzuckerberg/napari-hub-collections) and fill out the fields detailed below for your Collection before making a pull request to add your unique file to the [collections folder](https://github.com/chanzuckerberg/napari-hub-collections/tree/dgm/submission/collections). 
 
 ***NOTE:*** If you aren't comfortable with Github, email [Dannielle McCarthy](mailto: dmccarthy@chanzuckerberg.com) so that she can facilitate your Collection submission.
 
