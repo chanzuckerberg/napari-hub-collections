@@ -1,6 +1,34 @@
 # napari hub collections
 
-This repository contains the content that powers the MVP implementations of the napari hub's Collections.
+This repository contains the content that powers the MVP implementation of the napari hub's Collections.
+
+Plugin Collections are sets of plugins from the [napari hub](https://www.napari-hub.org/) curated by fellow community members. Collections fall under three categories: 
+- **Protocols** show how to use a set of plugins to complete an image analysis workflow
+- **Toolkits** are great for getting started within a research domain
+- **Assortments** are connected by a central theme 
+
+Have an idea for a Collection you'd like to share with the napari community? Curate your own Collection following the directions below.
+
+## How to Submit a Collection
+
+Collections can be submitted directly to this repo via a pull request. Download the collection-template.yml file from the [collections folder](https://github.com/chanzuckerberg/napari-hub-collections/tree/dgm/submission/collections) and fill out the fields detailed below for your Collection before making a pull request to add your unique file to the [collections folder](https://github.com/chanzuckerberg/napari-hub-collections/tree/dgm/submission/collections). 
+
+***NOTE:*** If you aren't comfortable with Github, email [Dannielle McCarthy](mailto: dmccarthy@chanzuckerberg.com) so that she can facilitate your Collection submission.
+
+* **title:** Human-readable descriptive name of the Collection contents. (e.g. Reader Plugins, Electron Microscopy Toolkit, Cell Segmentation Workflow, etc.) You may use the name to specify if the Collection is a grouping of plugins or an ordered list of plugins for a certain task.
+
+* **updated_date:** The date the Collection was submitted or last updated. This must be in ISO-8601 format within double quotes (e.g. "2022-05-24").
+
+* **summary:** One-sentence overview of the Collection, displayed on the Collection card, to give napari users insight into what the collection contains and how it will help them. (Max length: 75 characters with spaces)
+
+* **description:** Longer description of the Collection, displayed at the top of the Collection page, to give napari users more background and context on the collection, what the plugins do, and why it matters. (Max length: 500 characters with spaces)
+
+* **cover_image:** Cover image chosen from the [images folder](https://github.com/chanzuckerberg/napari-hub-collections/tree/dgm/submission/images) for the Collection. Browse the available images and include the full file name with the extension (e.g. national-cancer-institute-lsxKuARrQXI-unsplash.jpg) in the provided field.
+
+* **plugins:** List of plugins in the Collection with each plugin's PyPI name (e.g. napari-sim-processor) and an optional comment about the plugin to let users know why this plugin matters.
+
+* **curator information:** Information on you to share who created this Collection to the community. You can share your name, title, institution, website, ORCID ID, and links to twitter, GitHub and other relevant websites. 
+
 
 ## Code of Conduct
 
