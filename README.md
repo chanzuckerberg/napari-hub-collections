@@ -11,7 +11,7 @@ Have an idea for a Collection you'd like to share with the napari community? Cur
 
 ## How to Submit a Collection
 
-Collections can be submitted directly to this repo via a pull request. Download the collection-template.yml file from the [the napari-hub-collections repository](https://github.com/chanzuckerberg/napari-hub-collections) and fill out the fields detailed below for your Collection before making a pull request to add your unique file to the [collections folder](https://github.com/chanzuckerberg/napari-hub-collections/tree/dgm/submission/collections). 
+Collections can be submitted directly to this repo via a pull request. Download the collection-template.yml file from the [the napari-hub-collections repository](https://github.com/chanzuckerberg/napari-hub-collections) and fill out the fields detailed below for your Collection before making a pull request to add your unique file to the [collections folder](collections). 
 
 ***NOTE:*** If you aren't comfortable with Github, email [Dannielle McCarthy](mailto:dmccarthy@chanzuckerberg.com) so that she can facilitate your Collection submission.
 
@@ -23,7 +23,7 @@ Collections can be submitted directly to this repo via a pull request. Download 
 
 * **description:** Longer description of the Collection, displayed at the top of the Collection page, to give napari users more background and context on the Collection, what the plugins do, and why it matters. (Max length: 500 characters with spaces)
 
-* **cover_image:** Cover image chosen from the [images folder](https://github.com/chanzuckerberg/napari-hub-collections/tree/dgm/submission/images) for the Collection. Browse the available images and include the full file name with the extension (e.g. national-cancer-institute-lsxKuARrQXI-unsplash.jpg) in the provided field.
+* **cover_image:** Cover image chosen from the [images folder](images) for the Collection. Browse the available images and include the full file name with the extension (e.g. national-cancer-institute-lsxKuARrQXI-unsplash.jpg) in the provided field.
 
 * **plugins:** List of plugins in the Collection with each plugin's PyPI name (e.g. napari-sim-processor) and an optional comment about the plugin to let users know why this plugin matters.
 
