@@ -2,9 +2,9 @@
 
 This repository contains the content that powers the MVP implementation of the napari hub's Collections.
 
-Plugin Collections are sets of plugins from the [napari hub](https://www.napari-hub.org/) curated by fellow community members. A collections might be: 
+Plugin Collections are sets of plugins from the [napari hub](https://www.napari-hub.org/) curated by fellow community members. A collection might be: 
 - A **protocol** or recipe that shows how to use a set of plugins to complete an image analysis workflow
-- A **toolkit** or pack that lets a napari getting started within a research domain
+- A **toolkit** or pack that helps a napari user get started within a research domain
 - An **assortment** that is defined by another central theme that connects the plugins
 
 Have an idea for a Collection you'd like to share with the napari community? Curate your own Collection following the directions below.
@@ -19,9 +19,9 @@ Collections can be submitted directly to this repo via a pull request. Download 
 
 * **updated_date:** The date the Collection was submitted or last updated. This must be in ISO-8601 format within double quotes (e.g. "2022-05-24").
 
-* **summary:** One-sentence overview of the Collection, displayed on the Collection card, to give napari users insight into what the collection contains and how it will help them. (Max length: 75 characters with spaces)
+* **summary:** One-sentence overview of the Collection, displayed on the Collection card, to give napari users insight into what the Collection contains and how it will help them. (Max length: 75 characters with spaces)
 
-* **description:** Longer description of the Collection, displayed at the top of the Collection page, to give napari users more background and context on the collection, what the plugins do, and why it matters. (Max length: 500 characters with spaces)
+* **description:** Longer description of the Collection, displayed at the top of the Collection page, to give napari users more background and context on the Collection, what the plugins do, and why it matters. (Max length: 500 characters with spaces)
 
 * **cover_image:** Cover image chosen from the [images folder](https://github.com/chanzuckerberg/napari-hub-collections/tree/dgm/submission/images) for the Collection. Browse the available images and include the full file name with the extension (e.g. national-cancer-institute-lsxKuARrQXI-unsplash.jpg) in the provided field.
 
