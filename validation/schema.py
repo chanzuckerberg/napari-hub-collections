@@ -31,3 +31,7 @@ class CollectionSchema(Schema):
         )
     updated_date = fields.Date(required=True)
     curator = fields.Nested(CuratorSchema(), required=True)
+    visibility = fields.Str(
+        validate=validate.OneOf(('public','hidden','disabled')),
+        load_default='public',
+    )
