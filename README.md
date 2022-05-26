@@ -1,6 +1,6 @@
 # napari hub collections
 
-This repository contains the content that powers the MVP implementation of the napari hub's Collections.
+This repository contains the content for plugin Collections on the napari hub.
 
 Plugin Collections are sets of plugins from the [napari hub](https://www.napari-hub.org/) curated by fellow community members. A collection might be: 
 - A **protocol** or recipe that shows how to use a set of plugins to complete an image analysis workflow
