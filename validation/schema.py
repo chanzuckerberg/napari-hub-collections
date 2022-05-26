@@ -14,7 +14,7 @@ class CuratorSchema(Schema):
     name = fields.Str(required=True)
     title = fields.Str(required=True)
     affiliation = fields.Nested(InstitutionSchema(),required=True)
-    links = fields.Nested(LinksetSchema())
+    links = fields.Nested(LinksetSchema(), required=True)
 
 class PluginSchema(Schema):
     name = fields.Str(required=True)
