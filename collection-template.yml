@@ -38,7 +38,11 @@ curator:
     institution: 
     website: 
   links:
+    # an ORCID ID is required
     orcid: 
+    # (optional) link to Twitter
     twitter: 
+    # (optional) link to GitHub
     github: 
+    # (optional) link to another website, such as a personal or institutional homepage
     website: 
