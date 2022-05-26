@@ -13,7 +13,12 @@ summary:
 # a longer description of the collection. 
 # give more background and context on the collection, what the plugins do, and why it matters.
 # this will be displayed at the top of the collection. See https://yaml-multiline.info/ for YAML syntax for multiline values.
-description: 
+description: >
+  ADD YOUR DESCRIPTION HERE.
+  Feel free to use multiple lines. They will
+  be parsed as a single line unless you add a space.
+  
+  Be sure to indent consistently, though!
 
 # provide a cover image for the collection. 
 # this must be at least 1400px and be present in the top-level `images` folder in this repo (note: include full file name with the file extension)
