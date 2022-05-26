@@ -54,3 +54,5 @@ curator:
     github: https://github.com/neuromusic
     # (optional) link to another website, such as a personal or institutional homepage
     website: https://justinkiggins.com
+
+visibility: hidden
