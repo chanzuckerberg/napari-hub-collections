@@ -1,7 +1,7 @@
 # each Collection must have a title
 title: 
 
-# the date the Collection was last updated. must be in ISO-8601 format within double quotes (e.g. "2022-05-24")
+# the date the Collection was submitted or last updated. The date must be in ISO-8601 format within double quotes (e.g. "2022-05-24")
 updated_date: 
 
 # a one-sentence summary of the collection. 
@@ -26,7 +26,7 @@ cover_image:
 
 # the list of plugins in this collection
 plugins:
-    # the name of the plugin is the pypi name
+    # the name of the plugin is the pypi name (e.g. napari-sim-processor)
   - name: 
     # provide a comment to let users know why this plugin matters
     comment: 
