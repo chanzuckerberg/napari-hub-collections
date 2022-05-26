@@ -2,10 +2,10 @@
 
 This repository contains the content that powers the MVP implementation of the napari hub's Collections.
 
-Plugin Collections are sets of plugins from the [napari hub](https://www.napari-hub.org/) curated by fellow community members. Collections fall under three categories: 
-- **Protocols** show how to use a set of plugins to complete an image analysis workflow
-- **Toolkits** are great for getting started within a research domain
-- **Assortments** are connected by a central theme 
+Plugin Collections are sets of plugins from the [napari hub](https://www.napari-hub.org/) curated by fellow community members. A collections might be: 
+- A **protocol** or recipe that shows how to use a set of plugins to complete an image analysis workflow
+- A **toolkit** or pack that lets a napari getting started within a research domain
+- An **assortment** that is defined by another central theme that connects the plugins
 
 Have an idea for a Collection you'd like to share with the napari community? Curate your own Collection following the directions below.
 
