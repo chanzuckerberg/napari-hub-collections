@@ -4,9 +4,6 @@ import click
 import yaml
 import glob
 
-from pprint import pprint
-from marshmallow import ValidationError
-
 from schema import CollectionSchema
 
 @click.command()
@@ -31,7 +28,7 @@ def validate(collection_path):
         #     pprint(err.messages)
 
         print(f"validating {collection}")
-        CollectionSchema().load(in_data)
+        CollectionSchema.parse_obj(in_data)
 
 
 if __name__ == '__main__':

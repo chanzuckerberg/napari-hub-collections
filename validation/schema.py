@@ -1,37 +1,56 @@
-from marshmallow import Schema, fields, validate
+import datetime
+from typing import Optional, List
+from typing_extensions import Literal
 
-class LinksetSchema(Schema):
-    orcid = fields.Str(required=True)
-    twitter = fields.Str()
-    github = fields.Str()
-    website = fields.URL(schemes=['https'])
+from pydantic import BaseModel, HttpUrl, ConstrainedStr, Field
 
-class InstitutionSchema(Schema):
-    institution = fields.Str(required=True)
-    website = fields.URL(required=True, schemes=['https'])
+# Fields
+Visibility = Literal['public', 'hidden', 'disabled']
 
-class CuratorSchema(Schema):
-    name = fields.Str(required=True)
-    title = fields.Str(required=True)
-    affiliation = fields.Nested(InstitutionSchema(),required=True)
-    links = fields.Nested(LinksetSchema(), required=True)
 
-class PluginSchema(Schema):
-    name = fields.Str(required=True)
-    comment = fields.Str(validate=validate.Length(max=300))
+class Comment(ConstrainedStr):
+    max_length = 300
 
-class CollectionSchema(Schema):
-    title = fields.Str(required=True,validate=validate.Length(max=500))
-    cover_image = fields.Str(required=True)
-    summary = fields.Str(required=True)
-    description = fields.Str(required=True)
-    plugins = fields.List(
-        fields.Nested(PluginSchema()),
-        required=True
-        )
-    updated_date = fields.Date(required=True)
-    curator = fields.Nested(CuratorSchema(), required=True)
-    visibility = fields.Str(
-        validate=validate.OneOf(('public','hidden','disabled')),
-        load_default='public',
-    )
+
+class Title(ConstrainedStr):
+    max_length = 500
+
+
+class HttpsUrl(HttpUrl):
+    allowed_schemes = {'https'}
+
+
+# Models
+class LinksetSchema(BaseModel):
+    orcid: str
+    twitter: Optional[str]
+    github: Optional[str]
+    website: Optional[HttpsUrl]
+
+
+class InstitutionSchema(BaseModel):
+    institution: str
+    website: HttpsUrl
+
+
+class CuratorSchema(BaseModel):
+    name: str
+    title: str
+    affiliation: InstitutionSchema
+    links: LinksetSchema
+
+
+class PluginSchema(BaseModel):
+    name: str
+    comment: Comment
+
+
+class CollectionSchema(BaseModel):
+    title: Title
+    cover_image: str
+    summary: str
+    description: str
+    plugins: List[PluginSchema]
+    updated_date: datetime.date
+    curator: CuratorSchema
+    visibility: Visibility = Field('public')
