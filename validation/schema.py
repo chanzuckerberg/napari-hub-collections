@@ -1,8 +1,8 @@
 import datetime
-from typing import Optional, List
+from typing import List, Optional
 from typing_extensions import Literal
 
-from pydantic import BaseModel, HttpUrl, ConstrainedStr, Field
+from pydantic import BaseModel, ConstrainedStr, HttpUrl
 
 # Fields
 Visibility = Literal['public', 'hidden', 'disabled']
@@ -53,4 +53,4 @@ class CollectionSchema(BaseModel):
     plugins: List[PluginSchema]
     updated_date: datetime.date
     curator: CuratorSchema
-    visibility: Visibility = Field('public')
+    visibility: Visibility = 'public'
