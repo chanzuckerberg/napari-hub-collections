@@ -1,6 +1,5 @@
 import datetime
-from typing import List, Optional
-from typing_extensions import Literal
+from typing import List, Literal, Optional
 
 from pydantic import BaseModel, ConstrainedStr, HttpUrl
 
