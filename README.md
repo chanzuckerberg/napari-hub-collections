@@ -23,11 +23,17 @@ Collections can be submitted directly to this repo via a pull request. Download 
 
 * **description:** Longer description of the Collection, displayed at the top of the Collection page, to give napari users more background and context on the Collection, what the plugins do, and why it matters. (Max length: 500 characters with spaces)
 
-* **cover_image:** Cover image chosen from the [images folder](images) for the Collection. Browse the available images and include the full file name with the extension (e.g. national-cancer-institute-lsxKuARrQXI-unsplash.jpg) in the provided field.
+* **cover_image:** A large image the top of your Collection. Optimal size is >1400px. Field must be populated with the full file name with the extension (e.g. national-cancer-institute-lsxKuARrQXI-unsplash.jpg) of an image in the [images folder](images). Browse the available images or upload your own.
 
 * **plugins:** List of plugins in the Collection with each plugin's PyPI name (e.g. napari-sim-processor) and an optional comment about the plugin to let users know why this plugin matters.
 
 * **curator information:** Information on you to share who created this Collection to the community. You can share your name, title, institution, website, ORCID ID, and links to twitter, GitHub and other relevant websites. 
+
+## Mockups
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/1245615/171043163-c4371b71-f1b7-480e-a770-b0e67317a68b.png">
+
+<img width="1134" alt="image" src="https://user-images.githubusercontent.com/1245615/171042327-e9ff5a3a-adbf-4046-8dd9-9f97a5c5dacf.png">
 
 
 ## Code of Conduct
