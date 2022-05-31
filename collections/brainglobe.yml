@@ -19,7 +19,7 @@ description: >
 
 # Provide a cover image for the collection. 
 # This must be at least 1400px and be present in the top-level `images` folder in this repo
-cover_image: brainglobe.png
+cover_image: parvalbumin.png
 
 # the list of plugins in this collection
 plugins:
