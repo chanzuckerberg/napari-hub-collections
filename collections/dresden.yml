@@ -1,0 +1,110 @@
+# each Collection must have a title
+title: Dresden
+
+# the date the collection was last updated. must be in ISO-8601 format
+updated_date: "2022-07-09"
+
+# a one-sentence summary of the collection. 
+# give napari users insight into what the collection contains and how it will help them.
+# this will be shown on the Collection's card.
+summary: Plugins created by developers in Dresden, Germany
+
+
+# A longer description of the collection. 
+# Give more background and context on the collection, what the plugins do, and why it matters.
+# This will be displayed at the top of the collection.
+# (See https://yaml-multiline.info/ for more syntax for multiline fields)
+description: >
+  This is a collection of plugins developed by people at research institutes in Dresden, Germany:
+  * University of Technology, TU Dresden (TUD)
+  * Max Planck Institute for Molecular Cell Biology and Genetics, Dresden (MPI-CBG)
+  * Center for Systems Biology Dresden (CSBG)
+
+# Provide a cover image for the collection. 
+# This must be at least 1400px and be present in the top-level `images` folder in this repo
+cover_image: dresden.png
+
+# the list of plugins in this collection
+plugins:
+  - name: stardist-napari
+    comment: Nuclei segmentation
+  - name: napari-time-slicer
+    comment: Process time-lapse data
+  - name: devbio-napari
+    comment: Tools for developmental biologists
+  - name: beetlesafari
+    comment: Load image data from ClearControl microscopes at CSBD
+  - name: napari-process-points-and-surfaces
+    comment: Process point and surface data
+  - name: napari-stress
+    comment: Measure mechanical stresses on surfaces
+  - name: napari-assistant
+    comment: Combine image processing operations to workflows
+  - name: napari-clusters-plotter
+    comment: Clustering objects according to their propertie
+  - name: napari-layer-details-display
+    comment: Visualize layer details such as shape, data type, meta data
+  - name: napari-accelerated-pixel-and-object-classification
+    comment: Interactive pixel and object classification using random forest classifiers
+  - name: napari-pyclesperanto-assistant
+    comment: GPU-accelerated general purpose image processing and measure properties of labeled regions
+  - name: napari-simpleitk-image-processing
+    comment: General purpose image processing and measure properties of labeled regions
+  - name: napari-skimage-regionprops
+    comment: Measure properties of labeled regions
+  - name: the-segmentation-game
+    comment: Gamified image segmentation quality measurement
+  - name: napari-apr-viewer
+    comment: Visualize adaptive particle representation files
+  - name: napari-stl-exporter
+    comment: Save surfaces as STL files
+  - name: napari-workflow-inspector
+    comment: Visualize image processing workflows as graphs
+  - name: napari-segment-blobs-and-things-with-membranes
+    comment: General purpose image processing
+  - name: napari-cupy-image-processing
+    comment: GPU-accelerated general purpose image processing
+  - name: napari-workflow-optimizer
+    comment: Automatically tune parameters of workflows
+  - name: napari-animated-gif-io
+    comment: Save image stacks as animated gifs
+  - name: napari-metroid
+    comment: Measure signal changes over time in multiple regions
+  - name: napari-script-editor
+    comment: Edit python scripts in napari
+  - name: napari-brightness-contrast
+    comment: Visualization configuration
+  - name: napari-crop
+    comment: Crop regions
+  - name: napari-mouse-controls
+    comment: Additional tools for using the mouse
+  - name: napari-curtain
+    comment: Visualize one image over another
+  - name: napari-tabu
+    comment: Handle multiple napari windows
+  - name: napari-folder-browser
+    comment: Explore image folder contents
+  - name: napari-plugin-search
+    comment: Search plugins
+  - name: napari-plot-profile
+    comment: Plot intensity along a line
+  - name: natari
+    comment: Games
+
+# who created this collection? add your name, credentials, and relevant links
+curator:
+  name: Robert Haase
+  title: Image Data Scientist
+  affiliation:
+    institution: DFG Cluster of Excellence "Physics of Life", TU Dresden
+    website: https://physics-of-life.tu-dresden.de/bia
+  links:
+    # an ORCID ID is required
+    orcid: https://orcid.org/0000-0001-5949-2327
+    # (optional) link to Twitter
+    twitter: https://twitter.com/haesleinhuepf
+    # (optional) link to GitHub
+    github: https://github.com/haesleinhuepf
+    # (optional) link to another website, such as a personal or institutional homepage
+    website: http://haesleinhuepf.net
+
