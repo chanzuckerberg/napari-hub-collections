@@ -90,6 +90,8 @@ plugins:
     comment: Plot intensity along a line
   - name: natari
     comment: Games
+  - name: napari-kics
+    comment: Estimate chromosome sizes from karyotype images
 
 # who created this collection? add your name, credentials, and relevant links
 curator:
