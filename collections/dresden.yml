@@ -92,6 +92,8 @@ plugins:
     comment: Games
   - name: napari-kics
     comment: Estimate chromosome sizes from karyotype images
+  - name: guanine-crystal-analysis
+    comment: A plugin for the guanine crystal segmentation, classification and characterization in the zebrafish eye
 
 # who created this collection? add your name, credentials, and relevant links
 curator:
