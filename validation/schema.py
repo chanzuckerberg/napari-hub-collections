@@ -25,7 +25,7 @@ class LinksetSchema(BaseModel):
 
 class InstitutionSchema(BaseModel):
     institution: str
-    website: HttpsUrl
+    website: HttpUrl
 
 
 class CuratorSchema(BaseModel):
