@@ -14,17 +14,13 @@ class Comment(ConstrainedStr):
 class Title(ConstrainedStr):
     max_length = 500
 
-
-class HttpsUrl(HttpUrl):
-    allowed_schemes = {'https'}
-
-
+    
 # Models
 class LinksetSchema(BaseModel):
     orcid: str
     twitter: Optional[str]
     github: Optional[str]
-    website: Optional[HttpsUrl]
+    website: Optional[HttpUrl]
 
 
 class InstitutionSchema(BaseModel):
