@@ -4,13 +4,13 @@ title: Dresden
 # the date the collection was last updated. must be in ISO-8601 format
 updated_date: "2022-07-09"
 
-# a one-sentence summary of the collection. 
+# a one-sentence summary of the collection.
 # give napari users insight into what the collection contains and how it will help them.
 # this will be shown on the Collection's card.
 summary: Plugins created by developers in Dresden, Germany
 
 
-# A longer description of the collection. 
+# A longer description of the collection.
 # Give more background and context on the collection, what the plugins do, and why it matters.
 # This will be displayed at the top of the collection.
 # (See https://yaml-multiline.info/ for more syntax for multiline fields)
@@ -20,7 +20,7 @@ description: >
   * Max Planck Institute for Molecular Cell Biology and Genetics, Dresden (MPI-CBG)
   * Center for Systems Biology Dresden (CSBG)
 
-# Provide a cover image for the collection. 
+# Provide a cover image for the collection.
 # This must be at least 1400px and be present in the top-level `images` folder in this repo
 cover_image: dresden.png
 
@@ -102,11 +102,10 @@ curator:
     website: https://physics-of-life.tu-dresden.de/bia
   links:
     # an ORCID ID is required
-    orcid: https://orcid.org/0000-0001-5949-2327
+    orcid: 0000-0001-5949-2327
     # (optional) link to Twitter
     twitter: https://twitter.com/haesleinhuepf
     # (optional) link to GitHub
     github: https://github.com/haesleinhuepf
     # (optional) link to another website, such as a personal or institutional homepage
     website: http://haesleinhuepf.net
-
