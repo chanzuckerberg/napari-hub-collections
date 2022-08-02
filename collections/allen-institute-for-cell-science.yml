@@ -1,0 +1,48 @@
+# each Collection must have a title
+title: Allen Institute for Cell Science
+
+# the date the Collection was submitted or last updated. The date must be in ISO-8601 format within double quotes (e.g. "2022-05-24")
+updated_date: "2022-08-01"
+
+# a one-sentence summary of the collection.
+# give napari users insight into what the collection contains and how it will help them.
+# this will be shown on the Collection's card.
+summary: Plugins developed by the Allen Institute for Cell Science
+
+
+# a longer description of the collection.
+# give more background and context on the collection, what the plugins do, and why it matters.
+# this will be displayed at the top of the collection. See https://yaml-multiline.info/ for YAML syntax for multiline values.
+description: >
+  The Allen Institute for Cell Science maintains a variety of plugins for napari.
+
+# provide a cover image for the collection.
+# this must be at least 1400px and be present in the top-level `images` folder in this repo (note: include full file name with the file extension)
+cover_image:
+
+# the list of plugins in this collection
+plugins:
+  - name: napari-allencell-segmenter
+    comment: An intuitive graphical user interface to access the powerful segmentation capabilities of the Allen Cell and Structure Segmenter
+  - name: napari-allencell-annotator
+    comment: Create annotation templates, annotate large image sets using these templates, and save image annotations to a csv file
+  - name: napari-aicsimageio
+    comment: Read metadata and imaging data for a wide variety of image file formats
+
+
+# who created this collection? add your name, credentials, and relevant links
+curator:
+  name: Kimberly Metzler
+  title: Senior Scientific Program Manager
+  affiliation:
+    institution: Allen Institute for Cell Science
+    website: https://alleninstitute.org/what-we-do/cell-science/
+  links:
+    # an ORCID ID is required
+    orcid:
+    # (optional) link to Twitter
+    twitter:
+    # (optional) link to GitHub
+    github:
+    # (optional) link to another website, such as a personal or institutional homepage
+    website:
