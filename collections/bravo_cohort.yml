@@ -28,14 +28,11 @@ plugins:
     comment: Utilize CellPose with FIJI to complete the [first cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/cellpose.html) from the Bravo Cohort course
   - name: PartSeg
     # provide a comment to let users know why this plugin matters
-    comment: Utilize PartSeg with napari-segment-blobs-and-things-with-membranes to complete
-    the [second cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html) from the Bravo Cohort course
+    comment: Utilize PartSeg with napari-segment-blobs-and-things-with-membranes to complete the [second cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html) from the Bravo Cohort course
   - name: napari-segment-blobs-and-things-with-membranes
-    comment: Utilize napari-segment-blobs-and-things-with-membranes with PartSeg to complete
-    the [second cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html) from the Bravo Cohort course
+    comment: Utilize napari-segment-blobs-and-things-with-membranes with PartSeg to complete the [second cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html) from the Bravo Cohort course
   - name: napari-allencell-segmenter
-    comment: Utilize napari-allencell-segmenter to complete
-    the [third cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/allencell.html) from the Bravo Cohort course
+    comment: Utilize napari-allencell-segmenter to complete the [third cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/allencell.html) from the Bravo Cohort course
 
 # who created this collection? add your name, credentials, and relevant links
 curator:
