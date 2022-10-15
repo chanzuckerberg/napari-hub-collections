@@ -31,7 +31,7 @@ plugins:
     comment: Classify every pixel from your own pre-trained deep learning models
   - name: cellfinder-napari
     comment: Quickly detect neurons in whole brain flourescent imaging data
-  - name: napari-cellpose
+  - name: cellpose-napari
     comment: Segment cells and nuclei leveraging cytoplasm channels
   - name: napari-nucleaizer
     comment: Segment cellular nuclei across a wide range of imaging modalities
