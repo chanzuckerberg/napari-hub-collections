@@ -24,7 +24,7 @@ cover_image: national-cancer-institute-evhLgfOjU5Y-unsplash.jpg
 # the list of plugins in this collection
 plugins:
     # the name of the plugin is the pypi name
-  - name: napari-cellpose
+  - name: cellpose-napari
     comment: Utilize CellPose with FIJI to complete the [first cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/cellpose.html) from the Bravo Cohort course
   - name: PartSeg
     # provide a comment to let users know why this plugin matters
