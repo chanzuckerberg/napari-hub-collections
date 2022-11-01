@@ -15,6 +15,8 @@ Collections can be submitted directly to this repo via a pull request. Download 
 
 ***NOTE:*** If you aren't comfortable with Github, email [Dannielle McCarthy](mailto:dmccarthy@chanzuckerberg.com) so that she can facilitate your Collection submission.
 
+* **filename convention:** Use only plain text and dashes in place of spaces in the filename. (e.g. reader-plugins.yaml, electron-microscopy-toolkit.yaml, cell-segmentation-workflow.yaml, etc.) 
+
 * **title:** Human-readable descriptive name of the Collection contents. (e.g. Reader Plugins, Electron Microscopy Toolkit, Cell Segmentation Workflow, etc.) You may use the name to specify if the Collection is a grouping of plugins or an ordered list of plugins for a certain task.
 
 * **updated_date:** The date the Collection was submitted or last updated. This must be in ISO-8601 format within double quotes (e.g. "2022-05-24").
