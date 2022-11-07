@@ -2,7 +2,7 @@
 title: Bravo Cohort
 
 # the date the collection was last updated. must be in ISO-8601 format
-updated_date: "2022-06-10"
+updated_date: "2022-11-07"
 
 # a one-sentence summary of the collection. 
 # give napari users insight into what the collection contains and how it will help them.
@@ -16,7 +16,7 @@ summary: Plugins utilized in the cell segmentation learning materials of the nap
 # (See https://yaml-multiline.info/ for more syntax for multiline fields)
 description: >
   Plugins utilized in the cell segmentation learning materials of the napari Bravo Cohort partnership 
-  with Imaging Scientists. You can work through the napari cell segmentation course [here](https://chanzuckerberg.github.io/napari-segmentation-workshop/intro.html). 
+  with Imaging Scientists. You can work through the napari cell segmentation course here: https://chanzuckerberg.github.io/napari-segmentation-workshop/intro.html. 
 # Provide a cover image for the collection. 
 # This must be at least 1400px and be present in the top-level `images` folder in this repo
 cover_image: national-cancer-institute-evhLgfOjU5Y-unsplash.jpg
@@ -25,14 +25,14 @@ cover_image: national-cancer-institute-evhLgfOjU5Y-unsplash.jpg
 plugins:
     # the name of the plugin is the pypi name
   - name: cellpose-napari
-    comment: Utilize CellPose with FIJI to complete the [first cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/cellpose.html) from the Bravo Cohort course
+    comment: Utilize CellPose with FIJI to complete the first cell segmentation workflow: https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/cellpose.html from the Bravo Cohort course
   - name: PartSeg
     # provide a comment to let users know why this plugin matters
-    comment: Utilize PartSeg with napari-segment-blobs-and-things-with-membranes to complete the [second cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html) from the Bravo Cohort course
+    comment: Utilize PartSeg with napari-segment-blobs-and-things-with-membranes to complete the second cell segmentation workflow: https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html 
   - name: napari-segment-blobs-and-things-with-membranes
-    comment: Utilize napari-segment-blobs-and-things-with-membranes with PartSeg to complete the [second cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html) from the Bravo Cohort course
+    comment: Utilize napari-segment-blobs-and-things-with-membranes with PartSeg to complete the second cell segmentation workflow: https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html
   - name: napari-allencell-segmenter
-    comment: Utilize napari-allencell-segmenter to complete the [third cell segmentation workflow](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/allencell.html) from the Bravo Cohort course
+    comment: Utilize napari-allencell-segmenter to complete the third cell segmentation workflow: https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/allencell.html
 
 # who created this collection? add your name, credentials, and relevant links
 curator:
