@@ -14,9 +14,9 @@ summary: Plugins utilized in the cell segmentation course made by a group of Ima
 # This will be displayed at the top of the collection.
 # (See https://yaml-multiline.info/ for more syntax for multiline fields)
 description: >
-   Plugins utilized in the cell segmentation course made by Imaging Scientists in partnership with Chan Zuckerberg Initiative. 
-   Segmentation of nuclei, foci in nuclei, and filaments are covered in the course, which you can work through here: https://chanzuckerberg.github.io/napari-segmentation-workshop/intro.html. 
-   
+  Plugins utilized in the cell segmentation course made by Imaging Scientists in partnership with Chan Zuckerberg Initiative. 
+  Segmentation of nuclei, foci in nuclei, and filaments are covered in the course, which you can work through here: https://chanzuckerberg.github.io/napari-segmentation-workshop/intro.html. 
+
 # Provide a cover image for the collection. 
 # This must be at least 1400px and be present in the top-level `images` folder in this repo
 cover_image: national-cancer-institute-evhLgfOjU5Y-unsplash.jpg
