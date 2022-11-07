@@ -28,7 +28,8 @@ def validate(collection_path):
         #     pprint(err.messages)
 
         print(f"validating {collection}")
-        CollectionSchema.parse_obj(in_data)
+        parsed = CollectionSchema.parse_obj(in_data)
+        print(parsed)
 
 
 if __name__ == '__main__':
