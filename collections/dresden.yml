@@ -15,10 +15,7 @@ summary: Plugins created by developers in Dresden, Germany
 # This will be displayed at the top of the collection.
 # (See https://yaml-multiline.info/ for more syntax for multiline fields)
 description: >
-  This is a collection of plugins developed by people at research institutes in Dresden, Germany:
-  * University of Technology, TU Dresden (TUD)
-  * Max Planck Institute for Molecular Cell Biology and Genetics, Dresden (MPI-CBG)
-  * Center for Systems Biology Dresden (CSBG)
+  This is a collection of plugins developed by people at research institutes in Dresden, Germany: The University of Technology, TU Dresden (TUD), the Max Planck Institute for Molecular Cell Biology and Genetics (MPI-CBG) and the Center for Systems Biology Dresden (CSBD)
 
 # Provide a cover image for the collection.
 # This must be at least 1400px and be present in the top-level `images` folder in this repo
