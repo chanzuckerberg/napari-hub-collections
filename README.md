@@ -25,7 +25,7 @@ Collections can be submitted directly to this repo via a pull request. Download 
 
 * **description:** Longer description of the Collection, displayed at the top of the Collection page, to give napari users more background and context on the Collection, what the plugins do, and why it matters. (Max length: 500 characters with spaces)
 
-* **cover_image:** A large image the top of your Collection. Optimal size is >1400px. Field must be populated with the full file name with the extension (e.g. `national-cancer-institute-lsxKuARrQXI-unsplash.jpg`) of an image in the [images folder](images). Browse the available images or upload your own.
+* **cover_image:** A large image shown at the top of your Collection. Field must be populated with the full file name with the extension (e.g. `national-cancer-institute-lsxKuARrQXI-unsplash.jpg`) of an image in the [images folder](images). Browse the available images or upload your own. If you upload your own image, it should be a minimum of 1440px wide by a minimum of 640px tall (which is an aspect ratio of 9:4). The image’s actual shown aspect ratio will change depending upon the screen width of either the collections umbrella page or the individual collection page where it is viewed. It will range from being shown at the 9:4 aspect ratio on some screen widths of the collections umbrella page, to being shown at approximately 10:1 at its narrowest on the individual collection page (when the screen width is 1440px or greater).
 
 * **plugins:** List of plugins in the Collection with each plugin's PyPI name (e.g. napari-sim-processor) and an optional comment about the plugin to let users know why this plugin matters.
 
