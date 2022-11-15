@@ -31,6 +31,8 @@ Collections can be submitted directly to this repo via a pull request. Download 
 
 * **curator information:** Information on you to share who created this Collection to the community. You can share your name, title, institution, website, ORCID ID, and links to twitter, GitHub and other relevant websites. 
 
+* (optional) **visibility** Limit the visibility of your Collection on the napari hub. We support three levels of visibility: `public` (the default) means that the collection is available on the list of all Collections, `hidden` means that the collection page is available, but the collection does not show up in the list of collections, and `disabled` means that the collection does not show up on the napari hub
+
 ## Mockups
 
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/1245615/171043163-c4371b71-f1b7-480e-a770-b0e67317a68b.png">
