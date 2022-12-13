@@ -25,7 +25,6 @@ def validate(collection_path):
                 CollectionSchema.parse_obj(in_data)
             except yaml.YAMLError as err:
                 yaml_error_list.append(f'{err.problem} {err.problem_mark}')
-                continue
             except ValidationError as err:
                 schema_error_list.append(f'{err} in {collection}')
 
