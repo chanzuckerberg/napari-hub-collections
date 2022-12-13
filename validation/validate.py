@@ -51,4 +51,4 @@ def validate(collection_path):
 
 
 if __name__ == '__main__':
-    validate('/Users/klai/Documents/napari-hub-collections/collections')
+    validate()
