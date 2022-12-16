@@ -1,0 +1,55 @@
+# This workflow is responsible for creating thumbnails for the collection cover images.
+
+name: Resize Images
+
+on:
+  pull_request:
+    branches:
+      - '**'
+    paths:
+      - 'images/*'
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    working-directory: images/
+
+jobs:
+  resize-images:
+    if: ${{ github.event.head_commit.message }} != 'Resizing images'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+
+      - name: Get Yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      # cache both yarn-lock and node_modules
+      - name: Setup Yarn cache
+        uses: actions/cache@v3
+        id: yarn-cache
+        with:
+          path: |
+            **/node_modules
+            ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      # --prefer-offline forces yarn to use cache if available
+      - name: Install dependencies with yarn
+        run: yarn install --prefer-offline --frozen-lockfile
+
+      - name: Resize images
+        run: node resize.mjs
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Resizing images
