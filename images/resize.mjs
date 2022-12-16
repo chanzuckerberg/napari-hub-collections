@@ -5,19 +5,20 @@ import prettyBytes from 'pretty-bytes'
 
 const SUPPORTED_IMAGE_EXTENSIONS = ['jpeg', 'jpg', 'png']
 
-const imageFiles = fs
-  .readdirSync('.')
-  .filter(
-    file =>
-      !file.includes('-thumb') &&
-      SUPPORTED_IMAGE_EXTENSIONS.some(ext => file.includes(ext))
-  )
-
 function getThumbFile(file) {
   const ext = path.extname(file)
   const name = path.basename(file, ext)
   return `${name}-thumb${ext}`
 }
+
+const imageFiles = fs
+  .readdirSync('.')
+  .filter(
+    file =>
+      !file.includes('-thumb') &&
+      !fs.existsSync(getThumbFile(file)) &&
+      SUPPORTED_IMAGE_EXTENSIONS.some(ext => file.includes(ext))
+  )
 
 /**
  * The max observed width for images in the browser. This happens between 600px
