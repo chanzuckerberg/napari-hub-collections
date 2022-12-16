@@ -19,6 +19,10 @@ function getThumbFile(file) {
   return `${name}-thumb${ext}`
 }
 
+/**
+ * The max observed width for images in the browser. This happens between 600px
+ * and 875px when the page is using a 2 column flexible layout.
+ */
 const THUMB_IMAGE_WIDTH = 500
 
 function convertImages() {
