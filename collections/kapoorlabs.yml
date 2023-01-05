@@ -2,7 +2,7 @@
 title: KapoorLabs
 
 # the date the Collection was submitted or last updated. The date must be in ISO-8601 format within double quotes (e.g. "2022-05-24")
-updated_date: "2022-12-29"
+updated_date: "2023-05-01"
 
 # a one-sentence summary of the collection. 
 # give napari users insight into what the collection contains and how it will help them.
@@ -29,7 +29,9 @@ plugins:
   #copy the below template for all plugins in your collection
   - name: vollseg-napari-mtrack
     comment: Dynamic instability quantification of microtubule and actin filaments using VollSeg and Ransac.
-
+  
+  - name: vollseg-napari-trackmate
+    comment: Track and track statistics analysis using Fiji plugin TrackMate outputs and tracks layer in Napari.
    
 # who created this collection? add your name, credentials, and relevant links
 curator:
