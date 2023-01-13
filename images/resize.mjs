@@ -26,20 +26,28 @@ const imageFiles = fs
  */
 const THUMB_IMAGE_WIDTH = 500
 
+function convertImagesErrorHandler(err) {
+  if (err) {
+    console.error(`Unable to resize image`, err)
+  }
+}
+
 function convertImages() {
   console.log(`Resizing ${imageFiles.length} images`)
 
   imageFiles.forEach(async file => {
     const image = sharp(file)
     const metadata = await image.metadata()
+    const thumbFile = getThumbFile(file)
 
     if ((metadata.width ?? 0) > THUMB_IMAGE_WIDTH) {
-      image.resize(THUMB_IMAGE_WIDTH).toFile(getThumbFile(file), err => {
-        if (err) {
-          console.error(`Unable to resize image`, err)
-        }
-      })
+      image
+        .resize(THUMB_IMAGE_WIDTH)
+        .toFile(thumbFile, convertImagesErrorHandler)
+      return
     }
+
+    fs.copyFile(file, thumbFile, convertImagesErrorHandler)
   })
 }
 
