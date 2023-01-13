@@ -18,7 +18,7 @@ description: >
 
 # provide a cover image for the collection. 
 # this must be at least 1400px and be present in the top-level `images` folder in this repo (note: include full file name with the file extension)
-cover_image: kapoorlogo.png
+cover_image: kapoorlabs_napari_hub.png 
 
 # the list of plugins in this collection
 plugins:
