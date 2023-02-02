@@ -1,13 +1,13 @@
 # each Collection must have a title
-title: Alfa Cohort
+title: Segmentation Plugins by the Alfa Cohort
 
 # the date the collection was last updated. must be in ISO-8601 format
-updated_date: "2022-04-29"
+updated_date: "2023-02-02"
 
 # a one-sentence summary of the collection. 
 # give napari users insight into what the collection contains and how it will help them.
 # this will be shown on the Collection's card.
-summary: Plugins created by participants in the the napari Alfa Cohort
+summary: Plugins for cell segmentation created by some of the first napari plugin developers 
 
 
 # A longer description of the collection. 
@@ -15,9 +15,8 @@ summary: Plugins created by participants in the the napari Alfa Cohort
 # This will be displayed at the top of the collection.
 # (See https://yaml-multiline.info/ for more syntax for multiline fields)
 description: >
-  Plugins created by participants in the the napari Alfa Cohort. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-  Vestibulum faucibus elit at erat volutpat, id consequat felis egestas. Vestibulum id eleifend purus. 
-  Cras tortor felis, congue in pulvinar nec.
+  Plugins for cell segmentation created by participants in the the napari Alfa Cohort, a collaboration between some of the first napari Plugin Developers and Chan Zuckerberg Initiative. 
+  More information on this collaboration can be found here: https://chanzuckerberg.github.io/napari-plugin-alfa-cohort/ 
 
 # Provide a cover image for the collection. 
 # This must be at least 1400px and be present in the top-level `images` folder in this repo
@@ -56,4 +55,4 @@ curator:
     website: https://justinkiggins.com
 
 # the optional "visibility" field lets you set a collection to "hidden" or "disabled", which can be useful for testing purposes
-visibility: hidden
+# visibility: hidden
