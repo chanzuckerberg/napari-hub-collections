@@ -16,8 +16,7 @@ summary: A suite of plugins created by the Allen Institute for Cell Science.
 description: >
   Three napari tools developed by the Allen Institute for Cell Science during the creation of the Allen Institute's Image Analysis Pipeline. 
     AICSImageIO handles image reading and writing with attention to metadata conversion. 
-    Annotator allows users to annotate and score image data which can be exported as a .csv. 
-    Finally, Segmenter allows robust 3D segmentation of both cells and structures using classic image segmentation workflows. 
+    Segmenter allows robust 3D segmentation of both cells and structures using classic image segmentation workflows. 
     These tools allow researchers without deep computational backgrounds to easily leverage high-level image curation and analyses on their datasets.
 
 # provide a cover image for the collection. 
@@ -28,8 +27,6 @@ cover_image: aics-napari.png
 plugins:
   - name: napari-allencell-segmenter
     comment: A plugin that enables 3D image segmentation provided by Allen Institute for Cell Science
-  - name: napari-allencell-annotator
-    comment: A plugin that enables image annotation/scoring and writes annotations to a .csv file.
   - name: napari-aicsimageio
     comment: Image Reading, Metadata Conversion, and Image Writing for Microscopy Images in Napari
 
