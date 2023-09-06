@@ -1,3 +1,10 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+# Deprecated
+
+We are archiving this repository as a part of [the deprecation of collections on napari-hub](https://github.com/chanzuckerberg/napari-hub/discussions/1215). We will not continue to work on this repository. Thanks for your contribution.
+
+
 # napari hub collections
 
 This repository contains the content for plugin Collections on the napari hub.
